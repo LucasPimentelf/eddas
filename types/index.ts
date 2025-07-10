@@ -1,0 +1,20 @@
+export interface Books {
+  title: string,
+  code: string,
+  type: string,
+  year: string,
+  pages: string,
+  description: string,
+  description2?: string,
+  readMore: string,
+  image: string,
+  position: string,
+  professorView:string,
+  studentView:string,
+  slug: string,
+  pnldYear: string,
+  copySucess:boolean,
+  copyCode:string,
+  moreLess:boolean,
+  category:string
+}
