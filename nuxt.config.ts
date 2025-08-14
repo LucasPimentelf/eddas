@@ -8,10 +8,10 @@ export default defineNuxtConfig({
     },
   },
   devtools: { enabled: true },
-  ssr: true,
-  routeRules: {
-    "/": { prerender: true },
-  },
+  // // ssr: true,
+  // routeRules: {
+  //   "/": { prerender: true },
+  // },
   build: {
     transpile: ["vuetify"],
   },
